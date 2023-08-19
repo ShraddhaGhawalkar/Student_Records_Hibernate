@@ -15,7 +15,7 @@ IDE (Eclipse, IntelliJ IDEA, etc.) - Optional
 To set up and run the project, follow these steps:
 
 1. Clone this repository to your local machine:
--> git clone https://github.com/yourusername/Student_Records_Hibernate.git
+-> git clone https://github.com/ShraddhaGhawalkar/Student_Records_Hibernate.git
 
 2. Open the project in your preferred IDE (if using one).
 
