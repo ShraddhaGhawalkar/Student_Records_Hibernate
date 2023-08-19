@@ -31,9 +31,9 @@ To set up and run the project, follow these steps:
 6. Verify in your database that the student record has been successfully inserted.
 
 # Project Structure
--> hibernate.cfg.xml: Hibernate configuration file that specifies database connection details and mapping configurations.
--> src/main/java/hibernatepack/Studentmain.java: The main Java class that demonstrates Hibernate usage by inserting a student record into the database.
--> src/main/java/hibernatepack/Student.java: A simple Java class representing a Student entity with properties for roll, name, and address.
+- hibernate.cfg.xml: Hibernate configuration file that specifies database connection details and mapping configurations.
+- src/main/java/hibernatepack/Studentmain.java: The main Java class that demonstrates Hibernate usage by inserting a student record into the database.
+- src/main/java/hibernatepack/Student.java: A simple Java class representing a Student entity with properties for roll, name, and address.
 
 # How It Works
 - The hibernate.cfg.xml file is used to configure Hibernate, including database connection settings and mapping configurations.
