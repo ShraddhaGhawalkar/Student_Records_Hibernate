@@ -5,11 +5,11 @@ This repository demonstrates the usage of Hibernate, a robust Object-Relational 
 # Prerequisites
 Before running this project, please ensure that you have the following prerequisites installed:
 
-Java Development Kit (JDK) 8 or higher
-Apache Maven
-Hibernate
-MySQL (or any other relational database of your choice)
-IDE (Eclipse, IntelliJ IDEA, etc.) - Optional
+- Java Development Kit (JDK) 8 or higher
+- Apache Maven
+- Hibernate
+- MySQL (or any other relational database of your choice)
+- IDE (Eclipse, IntelliJ IDEA, etc.) - Optional
 
 # Getting Started
 To set up and run the project, follow these steps:
@@ -29,3 +29,17 @@ To set up and run the project, follow these steps:
 5. Run the Studentmain class as a Java application to insert a student record into the database.
 
 6. Verify in your database that the student record has been successfully inserted.
+
+# Project Structure
+-> hibernate.cfg.xml: Hibernate configuration file that specifies database connection details and mapping configurations.
+-> src/main/java/hibernatepack/Studentmain.java: The main Java class that demonstrates Hibernate usage by inserting a student record into the database.
+-> src/main/java/hibernatepack/Student.java: A simple Java class representing a Student entity with properties for roll, name, and address.
+
+# How It Works
+- The hibernate.cfg.xml file is used to configure Hibernate, including database connection settings and mapping configurations.
+- In the Studentmain class, we create a Hibernate SessionFactory based on the configuration.
+- We open a Hibernate Session to interact with the database.
+- A Transaction is initiated to ensure data consistency.
+- We create a Student object, set its attributes, and use session.persist(s) to insert it into the database.
+- The transaction is committed, and the session is closed.
+- A success message is printed to the console.
